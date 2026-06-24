@@ -1,0 +1,223 @@
+{
+	"nameShort": "Sanook AI",
+	"nameLong": "Sanook AI IDE",
+	"applicationName": "sanook-ai",
+	"dataFolderName": ".sanook-ai",
+	"sharedDataFolderName": ".sanook-ai-shared",
+	"win32MutexName": "sanookaiide",
+	"licenseName": "MIT",
+	"licenseUrl": "https://github.com/Sir-chawakorn/sanook-ai-ide/blob/main/LICENSE.txt",
+	"serverLicenseUrl": "https://github.com/Sir-chawakorn/sanook-ai-ide/blob/main/LICENSE.txt",
+	"serverGreeting": [],
+	"serverLicense": [],
+	"serverLicensePrompt": "",
+	"serverApplicationName": "sanook-ai-server",
+	"serverDataFolderName": ".sanook-ai-server",
+	"tunnelApplicationName": "",
+	"win32DirName": "Sanook AI IDE",
+	"win32NameVersion": "Sanook AI IDE",
+	"win32RegValueName": "SanookAIIDE",
+	"win32x64AppId": "{{DEEE4825-4CA8-4DCD-BF21-4DABE9630E48}",
+	"win32arm64AppId": "{{B33C5951-AF6F-4971-9222-0A3195AB946B}",
+	"win32x64UserAppId": "{{94C8A6F0-C41F-470A-9DE7-234C777841AF}",
+	"win32arm64UserAppId": "{{CD19DD96-8733-4017-A619-92DCF7299B76}",
+	"win32AppUserModelId": "Sanook.SanookAIIDE",
+	"win32ShellNameShort": "Sanook AI IDE",
+	"win32TunnelServiceMutex": "sanookai-tunnelservice",
+	"win32TunnelMutex": "sanookai-tunnel",
+	"darwinBundleIdentifier": "ai.sanook.SanookAIIDE",
+	"darwinProfileUUID": "47827DD9-4734-49A0-AF80-7E19B11495CC",
+	"darwinProfilePayloadUUID": "CF808BE7-53F3-46C6-A7E2-7EDB98A5E959",
+	"linuxIconName": "sanook-ai",
+	"licenseFileName": "LICENSE.txt",
+	"reportIssueUrl": "https://github.com/Sir-chawakorn/sanook-ai-ide/issues/new",
+	"nodejsRepository": "https://nodejs.org",
+	"urlProtocol": "sanook-ai",
+	"builtInExtensions": [
+		{
+			"name": "ms-vscode.js-debug-companion",
+			"version": "1.1.3",
+			"sha256": "7380a890787452f14b2db7835dfa94de538caf358ebc263f9d46dd68ac52de93",
+			"repo": "https://github.com/microsoft/vscode-js-debug-companion",
+			"metadata": {
+				"id": "99cb0b7f-7354-4278-b8da-6cc79972169d",
+				"publisherId": {
+					"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+					"publisherName": "ms-vscode",
+					"displayName": "Microsoft",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Microsoft"
+			}
+		},
+		{
+			"name": "ms-vscode.js-debug",
+			"version": "1.117.0",
+			"sha256": "854eeb8a785b1f41ba2bd02d7ccd4fdbe10021b61473293973c7e96d036c7fb8",
+			"repo": "https://github.com/microsoft/vscode-js-debug",
+			"metadata": {
+				"id": "25629058-ddac-4e17-abba-74678e126c5d",
+				"publisherId": {
+					"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+					"publisherName": "ms-vscode",
+					"displayName": "Microsoft",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Microsoft"
+			}
+		},
+		{
+			"name": "ms-vscode.vscode-js-profile-table",
+			"version": "1.0.10",
+			"sha256": "7361748ddf9fd09d8a2ed1f2a2d7376a2cf9aae708692820b799708385c38e08",
+			"repo": "https://github.com/microsoft/vscode-js-profile-visualizer",
+			"metadata": {
+				"id": "7e52b41b-71ad-457b-ab7e-0620f1fc4feb",
+				"publisherId": {
+					"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+					"publisherName": "ms-vscode",
+					"displayName": "Microsoft",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Microsoft"
+			}
+		},
+		{
+			"name": "Anthropic.claude-code",
+			"version": "2.1.187",
+			"sha256": "e5821954132ca05d1b58fdbbb151151c06808aabe6a1252075b73cc2ca9408b0",
+			"vsix": "build/sanook/extensions/Anthropic.claude-code-2.1.187-darwin-arm64.vsix",
+			"platforms": [
+				"darwin-arm64"
+			],
+			"metadata": {
+				"id": "0f73b6fe-2cf9-42b7-bdc1-ca188b22a0ec",
+				"publisherId": {
+					"publisherId": "anthropic",
+					"publisherName": "Anthropic",
+					"displayName": "Anthropic",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Anthropic"
+			}
+		},
+		{
+			"name": "openai.chatgpt",
+			"version": "26.5616.81150",
+			"sha256": "665801ed0dfc231358d8bdda96e9db577c2fae807af35cec8d3cbfd99777fc44",
+			"vsix": "build/sanook/extensions/openai.chatgpt-26.5616.81150-darwin-arm64.vsix",
+			"platforms": [
+				"darwin-arm64"
+			],
+			"metadata": {
+				"id": "e98e4f16-7354-4278-b8da-6cc79972169d",
+				"publisherId": {
+					"publisherId": "openai",
+					"publisherName": "openai",
+					"displayName": "openai",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "openai"
+			}
+		}
+	],
+	"onboardingKeymaps": [
+		{
+			"id": "vscode",
+			"label": "Sanook AI",
+			"description": "Default keyboard mapping"
+		},
+		{
+			"id": "sublime",
+			"label": "Sublime Text",
+			"extensionId": "ms-vscode.sublime-keybindings",
+			"description": "Keyboard mapping from Sublime Text"
+		},
+		{
+			"id": "intellij",
+			"label": "IntelliJ / JetBrains",
+			"extensionId": "k--kato.intellij-idea-keybindings",
+			"description": "Keyboard mapping from IntelliJ IDEA"
+		},
+		{
+			"id": "vim",
+			"label": "Vim",
+			"extensionId": "vscodevim.vim",
+			"description": "Vim modal editing"
+		},
+		{
+			"id": "eclipse",
+			"label": "Eclipse",
+			"extensionId": "alphabotsec.vscode-eclipse-keybindings",
+			"description": "Keyboard mapping from Eclipse"
+		},
+		{
+			"id": "notepadpp",
+			"label": "Notepad++",
+			"extensionId": "ms-vscode.notepadplusplus-keybindings",
+			"description": "Keyboard mapping from Notepad++"
+		}
+	],
+	"onboardingThemes": [
+		{
+			"id": "dark-2026",
+			"label": "Dark 2026",
+			"themeId": "Dark 2026",
+			"type": "dark"
+		},
+		{
+			"id": "hc-dark",
+			"label": "Dark High Contrast",
+			"themeId": "Default High Contrast",
+			"type": "hcDark"
+		},
+		{
+			"id": "solarized-dark",
+			"label": "Solarized Dark",
+			"themeId": "Solarized Dark",
+			"type": "dark"
+		},
+		{
+			"id": "light-2026",
+			"label": "Light 2026",
+			"themeId": "Light 2026",
+			"type": "light"
+		},
+		{
+			"id": "hc-light",
+			"label": "Light High Contrast",
+			"themeId": "Default High Contrast Light",
+			"type": "hcLight"
+		},
+		{
+			"id": "solarized-light",
+			"label": "Solarized Light",
+			"themeId": "Solarized Light",
+			"type": "light"
+		}
+	],
+	"builtInExtensionsEnabledWithAutoUpdates": [
+		"Anthropic.claude-code",
+		"openai.chatgpt"
+	],
+	"sessionsWindowAllowedExtensions": [
+		"Anthropic.claude-code",
+		"openai.chatgpt"
+	],
+	"quality": "stable",
+	"extensionsGallery": {
+		"serviceUrl": "https://open-vsx.org/vscode/gallery",
+		"itemUrl": "https://open-vsx.org/vscode/item",
+		"resourceUrlTemplate": "https://open-vsx.org/vscode/unpkg/{publisher}/{name}/{version}/{path}",
+		"controlUrl": "",
+		"recommendationsUrl": ""
+	},
+	"linkProtectionTrustedDomains": [
+		"https://open-vsx.org"
+	],
+	"configurationDefaults": {
+		"workbench.secondarySideBar.defaultVisibility": "visible",
+		"workbench.activityBar.location": "default",
+		"workbench.startupEditor": "none"
+	}
+}

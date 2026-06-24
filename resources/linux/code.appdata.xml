@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>@@NAME@@.desktop</id>
+	<metadata_license>@@LICENSE@@</metadata_license>
+	<project_license>@@LICENSE@@</project_license>
+	<name>@@NAME_LONG@@</name>
+	<url type="homepage">https://github.com/Sir-chawakorn/sanook-ai-ide</url>
+	<summary>Code editing. Redefined.</summary>
+	<description>
+		<p>Sanook AI IDE combines the simplicity of a source code editor with powerful developer tooling for the core edit-build-debug cycle.</p>
+	</description>
+</component>

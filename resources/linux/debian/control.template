@@ -1,0 +1,15 @@
+Package: @@NAME@@
+Version: @@VERSION@@
+Section: devel
+Depends: @@DEPENDS@@
+Recommends: @@RECOMMENDS@@
+Priority: optional
+Architecture: @@ARCHITECTURE@@
+Maintainer: Sanook AI IDE Team <noreply@github.com>
+Homepage: https://github.com/Sir-chawakorn/sanook-ai-ide
+Installed-Size: @@INSTALLEDSIZE@@
+Description: Sanook AI IDE
+ Sanook AI IDE combines the simplicity of a source code editor with
+ AI-assisted developer tooling for the core edit-build-debug cycle.
+ See https://github.com/Sir-chawakorn/sanook-ai-ide for project
+ information, installation notes, and issue reporting.
