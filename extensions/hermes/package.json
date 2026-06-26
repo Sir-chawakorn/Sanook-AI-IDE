@@ -1,0 +1,82 @@
+{
+  "name": "hermes",
+  "displayName": "Hermes",
+  "description": "Hermes agent (Nous Research) in the secondary sidebar, alongside Claude Code and Codex.",
+  "version": "0.1.0",
+  "publisher": "sanookai",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "hermes-sidebar",
+          "title": "Hermes",
+          "icon": "media/hermes-icon.svg",
+          "when": "hermes:doesNotSupportSecondarySidebar"
+        }
+      ],
+      "secondarySidebar": [
+        {
+          "id": "hermes-sidebar-secondary",
+          "title": "Hermes",
+          "icon": "media/hermes-icon.svg",
+          "when": "!hermes:doesNotSupportSecondarySidebar"
+        }
+      ]
+    },
+    "views": {
+      "hermes-sidebar": [
+        {
+          "type": "webview",
+          "id": "hermes.chatView",
+          "name": "Hermes",
+          "when": "hermes:doesNotSupportSecondarySidebar"
+        }
+      ],
+      "hermes-sidebar-secondary": [
+        {
+          "type": "webview",
+          "id": "hermes.chatViewSecondary",
+          "name": "Hermes",
+          "when": "!hermes:doesNotSupportSecondarySidebar"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "hermes.newSession",
+        "title": "Hermes: New Session",
+        "category": "Hermes",
+        "icon": "$(add)"
+      },
+      {
+        "command": "hermes.runSetup",
+        "title": "Hermes: Run Setup",
+        "category": "Hermes",
+        "icon": "$(gear)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "hermes.newSession",
+          "when": "view == hermes.chatView || view == hermes.chatViewSecondary",
+          "group": "navigation"
+        }
+      ]
+    }
+  }
+}

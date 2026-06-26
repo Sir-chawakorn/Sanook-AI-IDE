@@ -1,0 +1,63 @@
+.DS_Store
+.cache
+npm-debug.log
+Thumbs.db
+node_modules/
+.tmp/
+.build/
+.vscode/extensions/**/out/
+extensions/**/dist/
+src/vs/base/browser/ui/codicons/codicon/codicon.ttf
+/out*/
+/extensions/**/out/
+build/node_modules
+build/darwin/.dmgbuild
+coverage/
+test_data/
+test-results/
+test-results.xml
+vscode.lsif
+vscode.db
+/.profile-oss
+/cli/target
+/cli/openssl
+product.overrides.json
+product.json.orig
+product.json.preStrip
+# Sanook: bundled AI extension binaries — distributed via GitHub Releases, not Git
+build/sanook/extensions/*.vsix
+# Sanook: proprietary GitHub Copilot Chat extension source — not redistributable; ships as a vsix via Releases
+extensions/copilot/
+# Sanook: local dev test screenshots — not part of the project
+screenshots/
+# Sanook: regenerable icon output (input lives in build/sanook/logo-source/)
+build/sanook/generated-icons/
+# Sanook: root drop-spot duplicate of build/sanook/logo-source/Sanook AI Icon.jpg
+/Sanook AI Icon.jpg
+*.snap.actual
+*.tsbuildinfo
+.eslintcache
+.vscode-test
+.chat-simulation-data
+vscode-telemetry-docs/
+test-output.json
+test/componentFixtures/.screenshots/*
+!test/componentFixtures/.screenshots/baseline/
+dist
+!extensions/hermes/dist/
+!extensions/hermes/dist/**
+.playwright-cli
+.playwright-mcp
+.claude/
+.agents/agents/*.local.md
+.github/agents/*.local.md
+.agents/agents/*.local.agent.md
+.github/agents/*.local.agent.md
+.agents/hooks/*.local.json
+.github/hooks/*.local.json
+.agents/instructions/*.local.instructions.md
+.github/instructions/*.local.instructions.md
+.agents/prompts/*.local.prompt.md
+.github/prompts/*.local.prompt.md
+.agents/skills/.local/
+.github/skills/.local/
